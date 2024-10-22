@@ -1,0 +1,15 @@
+
+
+html {
+    --color-text : #000000
+    --color-background: #E8E5E0 
+    --color-container: #FFFEF8
+    --color-button: #4E4E4D
+    --color-buttontext: #FFFEF8
+
+
+}
+
+h1, h2, h3, h4, h5, p{
+    color: var(--color-text)
+}

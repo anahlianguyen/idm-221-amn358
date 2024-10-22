@@ -7,9 +7,36 @@ html {
     --color-button: #4E4E4D
     --color-buttontext: #FFFEF8
 
+    @font-face {
+        font-family: 'Kapakana Regular';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Kapakana Regular'), url('Kapakana[wght].woff') format('woff');
+        }
+
+        @fontface {
+            font-family: Inter;
+            src: url('../fonts/Inter.ttf')
+            font-style: ExtraLight
+            font-weight: normal
+        }
+
+    --font-default: Inter, -apple-system, Helvetica, Aroal, Sans-Serif; 
 
 }
 
 h1, h2, h3, h4, h5, p{
     color: var(--color-text)
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif
+    font-style: 
+    font-size: 16px;
+    font-weight: lighter
+}
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif
+    font-size: 32px; 
 }
