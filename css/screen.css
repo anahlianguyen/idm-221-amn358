@@ -7,6 +7,13 @@ html {
     --color-button: #4E4E4D
     --color-buttontext: #FFFEF8
 
+    @fontface {
+        font-family: 'Inter';
+        src: url('/fonts/Inter.ttf')
+        font-style: ExtraLight
+        font-weight: normal
+    }
+
     @font-face {
         font-family: 'Kapakana Regular';
         font-style: normal;
@@ -14,22 +21,20 @@ html {
         src: local('Kapakana Regular'), url('Kapakana[wght].woff') format('woff');
         }
 
-        @fontface {
-            font-family: Inter;
-            src: url('/fonts/Inter.ttf')
-            font-style: ExtraLight
-            font-weight: normal
         }
 
-    --font-default: Inter, -apple-system, Helvetica, Aroal, Sans-Serif; 
+    --font-default: Inter, -apple-system, Helvetica, Arial, Sans-Serif;
+    
 
 
 
 }
-h1, h2, h3, h4, h5, p{
+h1, h2, h3, h4, h5, p {
     color: var(--color-text)
 }
-
+h1, h2, h3, h4 {
+    font-family: Inter, Helvetica, Arial, Sans-Serif
+}
 p {
     font-family: var(--font--default)
     font-style: 
