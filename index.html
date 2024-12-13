@@ -1,46 +1,100 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet"
-    href="/css/styles.css">
+    <title>Anahlia Nguyen's Portfolio</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ballet">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
+    <img src="/images/logo.png" alt="logo" class="logo"--> 
+<header>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+        
 
-    <header>
-        <h1>Hello, I am <i>Anahlia Nguyen</i>, a UX/UI Designer based in Philadelphia</h1>
-        <h2>Empowering Users through Intuitive Design Solutions</h2>
-    </header>
+    <div class="introduction">
+        <h1>Hello, I am 
+            <span class="word-adjust"><i>Anahlia Nguyen</i>, a UX/UI Designer based in Philadelphia</h1></span>
+        <h4>Empowering Users through Intuitive Design Solutions</h2>
+        </div>
 <main>
-    <h3>Case Studies</h3>
+    <h4>Case Studies</h4>
 
     <!-- Case Study Descriptions -->
-    <div id="concord"> 
+    <div class="container">
+
+  
+    <img src="/images/photo1.png" alt="Concord Image" class="photo-adjust">
+  
+
+ 
+    <div class="description-text">
         <h2>Concord Pizza</h2>
         <h3>Redesigning a mobile ordering interface for a local pizza shop</h3>
-        <p>
-        <ul style="list-style-type:none;">
-            <li><b>Role:</b> Solo UX/UI Designer</li>
-            <li><b>Timeline:</b> 10 Weeks</li>
-            <li><b>Tools:</b> Figma, Photoshop</li>
-          </ul>  
-        </p>
+      
+            <p><b>Role:</b> Solo UX/UI Designer</p>
+            <p><b>Timeline:</b> 10 Weeks
+            <p><b>Tools:</b> Figma, Photoshop</p>
+        </ul>  
     </div>
 
-    <div id="purepour">
+        <div class="button-container">
+            <a class="cs-button" href="concord.html" target="_blank">view case study</a>
+        </div>
+    
+    </div>
+
+    <div class="container">
+        
+       
+        <img src="/images/photo2.png" alt="Mockup of PurePour App" class="photo-adjust">
+
+    <div class="description-text">
         <h2>PurePour</h2>
         <h3>Multimedia project solution for transparent water quality information</h3>
         <p>
-            <ul style="list-style-type:none;">
-                <li><b>Role:</b> Role: UX Researcher, Product Designer, UI Designer</li>
-                <li><b>Timeline:</b> 3 Weeks</li>
-                <li><b>Tools:</b> Figma, Photoshop, Tinkercad</li>
-              </ul>  
+        
+              <p><b>Role:</b> UX Researcher, Product Designer, UI Designer</p>
+              <p><b>Timeline:</b> 3 Weeks
+              <p><b>Tools:</b> Figma, Photoshop, Tinkercad</p>
+              <div class="button-container">
+                <a class="cs-button" href="purepour.html" target="_blank">view case study</a>
+            </div> 
         </p>
+        </div>
     </div>
 </main>
+<footer>
+    <ul style="list-style-type:none;">
+        <li><a href="about.html" target="_blank">About</a> </li>
+        <li><a href="resume.html" target="_blank">Resume</a></li>
+        <li><a href="contact.html" target="_blank">Contact</a></li>
+        <li><a href="art.html" target="_blank">Art</a></li>
+    </ul>
+    <a href=https://www.linkedin.com/in/anahlia-nguyen-bb812922a/><img src="/images/linkedin-logo.png"  alt="LinkedIn Logo" class="footer-logo"></a>
+    <a href=https://www.instagram.com/disposdeana?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==><img src="/images/instagram-logo.png" alt="Instagram Logo" class="footer-logo"></a>
+</footer>
 
 </body>
 </html>

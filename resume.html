@@ -5,13 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ballet">
+    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1> Resume </h1>
-    <h2> ANAHLIA NGUYEN</h2>
-    <H2>User Experience and Design Student</H2>
+    <div class="hamburger" id="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    
+    <!-- Navigation Menu -->
+    <img src="/images/logo.png" alt="logo" class="logo"--> 
 
-<div id="about"> 
+    <header>
+       <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+       <label for="nav-toggle" class="nav-toggle-label">
+         <span></span>
+         <span></span>
+         <span></span>
+       </label>
+       <nav>
+         <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a href="resume.html">Resume</a></li>
+           <li><a href="contact.html">Contact</a></li>
+         </ul>
+       </nav>
+     </header>
+
+    <div class="hamburger" id="hamburger">
+       <div class="line"></div>
+       <div class="line"></div>
+       <div class="line"></div>
+   </div>
+   
+   <!-- Navigation Menu -->
+   <nav class="nav" id="nav">
+       <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a href="resume.html">Resume</a></li>
+           <li><a href="contact.html">Contact</a></li>
+           <li><a href="art.html">Art</a></li>
+       </ul>
+   </nav>
+
+    <div class="description-text">
+    <h1> Resume </h1>
+    <div class="button-container">
+        <a class="resume-button" href="/pdf/anahlianguyenresume.pdf" target="_blank">view resume pdf</a>
+    </div>
+<div class="container"> 
     <H2> ABOUT</H2>
     <P>Anahlia is studying User Experience and Interaction Design at Drexel University's Westhpal College of Media Arts and Design and is passionate about building effective teams learning about users and the design choices that create user centric decisions.
 
@@ -19,11 +70,16 @@
         
         She is currently searching for an internship from March 2025 - September 2024 as a <b>UX/UI Designer.</b></P>
 </div>
+</div>
 
-<div id="experience"> 
+<div class="container"> 
+    
     <h2>EXPERIENCE</h2>
     <H3><b>Chipotle Mexican Grill </b><i>August 2022-September 2024</i></H3>
+    <div class="letter-spacing">
     <h4>Certified FOH Trainer</h4>
+    </div>
+    <div class="description-text">
     <p><ul>
         <li>Conducted usability testing and gathered feedback from trainees to iteratively refine training materials and ensure alignment with their needs and preferences
         </li>
@@ -32,29 +88,39 @@
         <li>Utilized data analytics and user feedback to assess the impact of training programs on employee performance and customer satisfaction, making data-driven adjustments as needed
         </li>
     </ul></p>
+
+</div>
     </div>
 
-<div id="education"> 
+<div class="container"> 
+    <div class="description-text">
     <h2>EDUCATION</h2>
     <h3><b>Drexel University, Westphal College of Media Arts & Design</b> <i>Sep 2023 - Jun 2028 (expected)</i></h3>
-    <h4>Candidate for B.S in User Experience and Interaction Design</h4>
+    <div class="letter-spacing">
+    <h5>Candidate for B.S in User Experience and Interaction Design</h5>
+</div>
     <P><B>Skills:</B>User Interface Design · Human Computer Interaction · UX Research · User Experience (UX) · Wireframing · Figma (Software)</P>
-    <h4>Philadelphia,PA</h4>
-
-    <h3>Projects</h3>
-
-    <h4><b>Mobile Redesign</b> / Solo UI Designer   </h4>
-    <h4><i>JANUARY 2024 – MARCH 2024,</i>  Coursework</h4>
+    <div class="letter-spacing">
+    <h2><b>Projects</b></h2>
+</div>
+<div class="letter-spacing">
+    <h5><b>Mobile Redesign</b> / Solo UI Designer</h5>
+</div>
+    <div class="letter-spacing">
+    <h5><i>JANUARY 2024 – MARCH 2024,</i>  Coursework</h5>
+</div>
     <p><ul>
         <li>Created wireframes and sketches </li>
         <li>Created solutions and included functionalities that would improve user experience and boost sales</li>
         <li>Conducted competitive analysis and heuristic evaluations to identify areas for improvement</li>
         <li>Created an hi-fi interactive prototype of mobile screen</li>
     </ul></p>
-
-    <h4><b>Multimedia Product and Mobile Design </b> / UX Researcher, Solo UI Designer, Product Designer
-    </h4>
-    <h4><i>NOVEMBER 2023 – DECEMBER 2023,  </i>Coursework</h4>
+    <div class="letter-spacing">
+    <h5><b>Multimedia Product and Mobile Design </b> / UX Researcher, Solo UI Designer, Product Designer
+    </h5></div>
+    <div class="letter-spacing">
+    <h5><i>NOVEMBER 2023 – DECEMBER 2023, </i>Coursework</h5> 
+    </div>
     <p><ul>
         <li>Created wireframes and sketches</li>
         <li>Made product sketches</li>
@@ -62,7 +128,17 @@
         <li>Created hi-fi sketches of mobile screen </li>
         <li>Collaborated closely with team members to align design decisions with user needs, technical constraints, and business objectives, ensuring a cohesive and holistic approach to the design process.</li>
     </ul></p>
+</div>
     </div>
 
-    <h2>Contact</h2>
-    <p>Anahlia is always available for side collaborations and talks worldwide. If you want to chat about design, projects, or anything else, don’t hesitate in reaching out.</p>
+
+    <footer>
+        <ul style="list-style-type:none;">
+            <li><a href="about.html" target="_blank">About</a> </li>
+            <li><a href="resume.html" target="_blank">Resume</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+            <li><a href="art.html" target="_blank">Art</a></li>
+        </ul>
+        <a href=https://www.linkedin.com/in/anahlia-nguyen-bb812922a/><img src="/images/linkedin-logo.png"  alt="LinkedIn Logo" class="footer-logo"></a>
+        <a href=https://www.instagram.com/disposdeana?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==><img src="/images/instagram-logo.png" alt="Instagram Logo" class="footer-logo"></a>
+    </footer>
